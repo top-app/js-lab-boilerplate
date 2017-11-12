@@ -1,6 +1,6 @@
 {
   "name": "js-lab-boilerplate",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "JavaScript Library Boilerplate based on https://github.com/kentcdodds/starwars-names",
   "main": "dist/index.js",
   "scripts": {
