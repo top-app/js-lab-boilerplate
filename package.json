@@ -1,7 +1,7 @@
 {
-  "name": "starwars-names",
-  "version": "0.0.0-semantically-released",
-  "description": "Get random Star Wars names",
+  "name": "js-lab-boilerplate",
+  "version": "0.0.0-development",
+  "description": "JavaScript Library Boilerplate based on https://github.com/kentcdodds/starwars-names",
   "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/starwars-names.git"
+    "url": "https://github.com/top-app/js-lab-boilerplate.git"
   },
   "keywords": [
     "random",
@@ -35,12 +35,12 @@
     "dist",
     "README.md"
   ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "author": "Qing WANG <ericwangqing@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/starwars-names/issues"
+    "url": "https://github.com/top-app/js-lab-boilerplate/issues"
   },
-  "homepage": "https://github.com/kentcdodds/starwars-names#readme",
+  "homepage": "https://github.com/top-app/js-lab-boilerplate#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
@@ -60,7 +60,7 @@
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
-    "semantic-release": "^4.2.1",
+    "semantic-release": "^8.2.0",
     "webpack": "1.13.1"
   },
   "engines": {
@@ -75,7 +75,6 @@
       "path": "node_modules/cz-conventional-changelog"
     }
   },
-  
   "babel": {
     "presets": [
       "es2015",
